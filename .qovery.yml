@@ -1,0 +1,11 @@
+---
+application:
+  name: "apimech-csb"
+  project: "js-ide"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-apimech-csb"
+  routes:
+  - application_name: "apimech-csb"
+    paths:
+    - "/*"
